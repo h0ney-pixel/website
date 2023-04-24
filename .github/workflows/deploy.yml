@@ -6,8 +6,8 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - name: executing remote ssh commands
-      uses: appleboy/ssh-action@master
+    - name: SSH Remote Commands
+      uses: appleboy/ssh-action@v0.1.10
       with:
         host: thiesketelsen.de
         username: ${{ secrets.USER }}

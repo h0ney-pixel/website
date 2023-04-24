@@ -6,3 +6,5 @@ Website repo with autodeployment
 - Github Actions
 - ???
 - [Profit](https://thiesketelsen.de)
+
+powered by https://github.com/appleboy/ssh-action

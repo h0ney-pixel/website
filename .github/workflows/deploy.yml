@@ -5,12 +5,11 @@ on:
       - main
 jobs:
 
-  build:
-    name: Build
+  release:
     runs-on: ubuntu-latest
     steps:
     - name: SSH Remote Commands
-      uses: appleboy/ssh-action@v0.1.10
+      uses: appleboy/ssh-action@v1.0.3
       with:
         host: thiesketelsen.de
         username: ${{ secrets.USER }}
